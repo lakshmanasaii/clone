@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<title></title>
+	 <!-- <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+  <script src="main.js"></script> -->
+  	<style type="text/css">
+  		body{
+  			margin: 0;
+  			padding: 0;
+  			box-sizing: border-box;
+  			background-color: #141414;
+  			color: white;
+  		/*	width: 100vw;
+  			height: 100vh; */
+  			font-family: Arial, Helvetica, sans-serif;
+
+  		}
+  		img{
+  			max-width: 100%;
+  		}
+
+  		.container{
+  			margin: 0;
+  			padding: 0;
+  		}
+  		header{
+  			 padding: 20px 20px 0 20px;
+  			 top: 0;
+  			 display: grid;
+  			 grid-gap: 5px;  
+  			 position: fixed;
+  			 grid-template-columns: 1fr 4fr 1fr;
+  			 background-color: #141414;
+  			 width: 100%;
+  			 margin-bottom: 0;
+
+  		}
+  		.nextflix-logo{
+  			 width: 100px;
+  			 padding-top: 0px; 
+  			 padding-left: 30px;
+  		}
+  		.nextflix-logo img{
+  			height: 35px;
+
+  		}
+  		.main-nav{
+  			padding: 0 20px 0 50px;
+
+
+  		}
+  		.main-nav a{
+  			text-decoration: none;
+  			color: white;
+  			margin: 5px;
+  		}
+  		.main-nav a:hover{
+  			color: #686868;
+  		}
+  		.sub-nav{
+  			padding: 0 30px 0 50px;
+  		}
+  		.sub-nav a{
+  			text-decoration: none;
+  			color: white;
+  			margin: 5px;
+
+  		}
+  		.sub-nav a:hover{
+  			color: #686868;
+  		}
+
+  		/* main-container */
+
+  		.main-container{
+  			padding: 50px;
+  		}
+  		.frame{
+  			display: grid;
+  			grid-gap: 20px;
+  			grid-template-columns: repeat(6, minmax(100px, 1fr));
+  			margin-bottom: 80px;
+  		}
+  		.frame a{
+  			transition: 0.5s; 
+  		}
+  		.frame a:hover{
+  			
+  			 transform: scale(1.4);
+  			
+  		}
+  		a img{
+  			border-radius: 5px;
+  		}
+
+  		.social-media{
+  			padding: 0 0 0 50px;
+  		}
+
+  		.social-media-logo a{
+  			color: white;
+  			font-size: 50px;
+  			padding: 10px;
+  			transition: 0.5s;
+  		}
+
+  		.social-media-logo a:hover{
+  			color: #686868;
+  		}
+  		.sub-media{
+  			padding: 50px;
+  		}
+  		.sub-media ul{
+  			padding: 0;
+  			list-style: none;
+  			display: grid;
+  			grid-gap: 20px;
+  			grid-template-columns: repeat(4, 1fr);
+  		}
+  		.other-links{
+  			display: flex;
+  			justify-content: center;
+  			align-items: center;
+  			font-size: 30px;
+  			padding-bottom: 20px;
+  		}
+  		.sub-media a{
+  			color: white;
+  			font-size: 20px;
+  			text-decoration: none;
+
+  		}
+  		.sub-media a:hover{
+  			color: #686868;
+  			text-decoration: underline;
+  		}
+
+</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<!-- Header -->
+		<header>
+		<div class="nextflix-logo">
+			<a href="#logo"> <img src="logo.png"> </a>
+		</div>
+
+		<nav class="main-nav"> 
+			<a href="#home" >Home</a>
+			<a href="#TVshows">TVshows</a>
+			<a href="#movies">Movies</a>
+			<a href="#nextlix-orginals"  class="nav-link">Netflix-Orginals</a>
+		</nav>
+
+		<nav class="sub-nav">
+			<a href="#search"><i class='bx bx-search'></i></a>
+			<a href="#profil"><i class='bx bxs-user'></i></a>
+			<a href="#account">Account</a>
+		</nav>
+	</header>
+	<!-- end of header -->
+
+	<section class="main-container">
+		<div >
+			<h1 >Popular on netflix</h1>
+			<div class="frame">
+				<a href=""> <img src="1.jpg"> </a>
+				<a href=""> <img src="2.jpg"> </a>
+				<a href=""> <img src="3.jpeg"> </a>
+				<a href=""> <img src="4.jpeg"> </a>
+				<a href=""> <img src="7.jpeg"> </a>
+				<a href=""> <img src="6.jpeg"></a>
+			</div>
+		</div>
+		<p id="home"><br><br></p>
+		<h1>Trending now</h1>
+		<div class="frame">
+			<a href=""><img src="1.jpg"></a>
+			<a href=""><img src="2.jpg"></a>
+			<a href=""><img src="3.jpeg"></a>
+			<a href=""><img src="4.jpeg"></a>
+			<a href=""><img src="6.jpeg"></a>
+			<a href=""><img src="7.jpeg"></a>
+		</div>
+
+			<p id="TVshows"><br><br></p>
+		 <h1 >TV Shows</h1>
+      <div class="frame">
+      	<a href=""><img src="3.jpeg"></a>
+      	<a href=""><img src="4.jpeg"></a>
+      	<a href=""><img src="6.jpeg"></a>
+      	<a href=""><img src="7.jpeg"></a>
+      	<a href=""><img src="1.jpg"></a>
+      	<a href=""><img src="2.jpg"></a>
+        </div>
+
+        <p id="movies"><br><br></p>
+        <h1>Blockbuster Action & Adventure</h1>
+        <div class="frame">
+        	<a href=""><img src="1.jpg"></a>
+        	<a href=""><img src="2.jpg"></a>
+        	<a href=""><img src="3.jpeg"></a>
+        	<a href=""><img src="4.jpeg"></a>
+        	<a href=""><img src="6.jpeg"></a>
+        	<a href=""><img src="7.jpeg"></a>
+        </div>
+
+        <p id="nextlix-orginals"><br><br></p>
+        <h1 id="nextlix-orginals">Netflix Originals</h1>
+        <div  class="frame">
+        	<a href=""><img src="1.jpg"></a>
+        	<a href=""><img src="2.jpg"></a>
+        	<a href=""><img src="4.jpeg"></a>
+        	<a href=""><img src="3.jpeg"></a>
+        	<a href=""><img src="6.jpeg"></a>
+        	<a href=""><img src="7.jpeg"></a>
+        </div>
+	</section>
+
+	<!-- end of the main-container -->
+
+	<section class="social-media">
+		<h1>collaboration with</h1>
+		<div class="social-media-logo">
+			<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+			<a href="#"><i class='bx bxl-facebook-circle'></i></a>
+			<a href="#"><i class='bx bxl-youtube' ></i></a>
+		</div>
+		<div class="sub-media">
+			<div class="other-links">Other social media links</div>
+			<ul>
+				<li><a href="#">audio & video</a></li>
+				<li><a href="#">google</a></li>
+				<li><a href="#">Xbox</a></li>
+				<li><a href="#">playstore</a></li>
+				<li><a href="#">applestore</a></li>
+				<li><a href="#">youtube</a></li>
+				<li><a href="#">maheesh</a></li>
+				<li><a href="#">lakshmana saii</a></li>
+			</ul>
+			
+		</div>
+	</section>
+
+	</div>
+
+	<!-- javascript -->
+	 <script>
+        // Get the home link element
+        const homeLink = document.querySelector('.nav-link');
+
+        // Function to handle the click event on the home link
+        function scroll(event) {
+            event.preventDefault();
+
+            // Get the home section element by its id
+            const home = document.getElementById('123');
+
+s
+            // Scroll to the home section
+            home.scroll({ behavior: 'smooth' });
+        }
+
+        // Attach the click event handler to the home link
+        homeLink.addEventListener('click', scrollToHome);
+
+
+
+
+
+    </script>
+
+</body>
+</html>
